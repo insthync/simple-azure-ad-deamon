@@ -1,2 +1,2 @@
 # simple-azure-ad-deamon
-Azure AD deamon for my games
+Azure AD deamon for my apps
