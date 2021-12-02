@@ -12,6 +12,8 @@ const FIREBASE_SERVICE_ACCOUNT_PATH = process.env.FIREBASE_SERVICE_ACCOUNT_PATH;
 const FIREBASE_DATABASE_URL = process.env.FIREBASE_DATABASE_URL;
 
 const app = express();
+app.set ( "view engine", "ejs" );
+
 const config = {
     "auth": {
         "clientId": CLIENT_ID,
@@ -60,7 +62,8 @@ app.get('/redirect', (req, res) => {
         .then((ccaRes) => {
             admin.auth().createCustomToken(ccaRes.account.localAccountId)
                 .then(function (token) {
-                    res.status(200).send({ token: token });
+                    res.render("vuplex", { token: token });
+                    //res.status(200).send({ token: token });
                 }).catch((error) => {
                     console.error(error);
                     res.status(500).send(error);
