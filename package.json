@@ -1,0 +1,25 @@
+{
+  "name": "simple-azure-ad-deamon",
+  "version": "1.0.0",
+  "description": "Azure AD deamon for my apps",
+  "main": "index.js",
+  "dependencies": {
+    "@azure/msal-node": "^1.3.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insthync/simple-azure-ad-deamon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insthync/simple-azure-ad-deamon/issues"
+  },
+  "homepage": "https://github.com/insthync/simple-azure-ad-deamon#readme"
+}
