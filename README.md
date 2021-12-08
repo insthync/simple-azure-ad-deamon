@@ -4,9 +4,9 @@ Azure AD deamon for my apps
 ## Workflow
 - User enter this service ('/')
 - This service redirect to MS login page
-- MS redirect to this service ('/redirect') to login info
+- MS redirect to this service ('/redirect') with MS login info
 - This service use the login info to mint new token
-- Response the token
+- Response the token to the client
 
 ## How to use
 
