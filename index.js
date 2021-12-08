@@ -81,5 +81,5 @@ app.get('/redirect', (req, res) => {
         });
 });
 
-const httpsServer = https.createServer(credentials, app)
+const httpsServer = https.createServer(credentials, app);
 httpsServer.listen(SERVER_PORT, () => console.log(`Azure AD Deamon is listening on port ${SERVER_PORT}`));
