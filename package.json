@@ -21,8 +21,8 @@
     "url": "git+https://github.com/insthync/simple-azure-ad-deamon.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ittipon Teerapruettikulchai",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/insthync/simple-azure-ad-deamon/issues"
   },
